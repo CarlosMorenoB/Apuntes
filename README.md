@@ -24,7 +24,12 @@ de primeras se nos presenta la imagen de un controlador analógico, este control
 
 ### 2.2.Estructura del controlador digital:
 
-![Figura de prueba](Imagenes/estructura.png)
+![Figura de prueba](Imagenes/señal2.png)
+
+en el controlador digital este recibe como entrada una señal analogica, nos muestra como funciona un ciclo de retroalimentacion para controlar un proceso de conversion de señales de forma analogica a digital. 
+
+### 2.3.Ejemplo:
+
 
 
 
