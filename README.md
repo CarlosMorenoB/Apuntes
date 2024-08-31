@@ -1,14 +1,25 @@
 # Introducción Control Digital
 
+En la primera clase de control se explica lo que son las señales analógicas y digitales, haciendo una breve introducción a cursos anteriores como lo son mostrar estructuras de controladores analógicos y digitales dando un ejemplo.
 
-El título de cada clase, correspondiente al tema general que se trabaje en clase. Siempre después de cada título de clase, redactar una breve introducción (mínimo un párrafo) que de una mirada general al tema
+se explica también sobre la conversión analógica a digital y digital a análoga, con sus modelos de conversión, y por último se explica lo que son las resistencias ponderadas y red escalera R-2R.
+
+
+## 1. Señales digitales vs analógicas
+
+Se presentan 2 señales las cuales una de ellas es de tipo analógico y otra de tipo digital. de la señal analógica se habla de los diferentes tipos de valores que estas pueden llegar a tener y como va variando con respecto al tiempo, en contraste a esto se presenta una señal digital la cual solo obtiene 2 posibles valores los cuales son '1' y '0' y su forma de onda es cuadrada.
+
+
+se presenta una pregunta la cual expresa el por qué es mejor control digital, el control digital es mejor porque en términos de precisión es mejor ya que nos permite un control más exacto con respecto a las condiciones que se desean, también nos permiten minimizar errores al momento de implementarlos por temas de diseños y en los cuales en los sistemas analógicos pueden ser más difíciles de controlar, nos permite más flexibilidad al momento de modificar o actualizar, y en términos de costos son más baratos y con una mayor velocidad con respecto al avance de la tecnología.
+
+## 2. Estructura controlador:
 
 
 
-## 1. Subtítulos
-Agregue todos los subtítulos que considere necesarios para estructurar el contenido de la clase. Es importante que considere jerarquías de los temas para definir el orden de estos subtítulos. Cada subtítulo debe ir numerado como una sección, de la manera en que lo presenta esta plantilla
 
-## 2. Definiciones
+
+
+
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
 >🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
 
