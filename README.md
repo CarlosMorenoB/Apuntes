@@ -31,6 +31,7 @@ en el controlador digital este recibe como entrada una señal analogica, nos mue
 ### 2.3.Ejemplo:
 
 
+![Figura de prueba](Imagenes/señal2.png)
 
 
 
