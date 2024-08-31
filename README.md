@@ -12,10 +12,13 @@ Se presentan 2 señales las cuales una de ellas es de tipo analógico y otra de 
 
 se presenta una pregunta la cual expresa el por qué es mejor control digital, el control digital es mejor porque en términos de precisión es mejor ya que nos permite un control más exacto con respecto a las condiciones que se desean, también nos permiten minimizar errores al momento de implementarlos por temas de diseños y en los cuales en los sistemas analógicos pueden ser más difíciles de controlar, nos permite más flexibilidad al momento de modificar o actualizar, y en términos de costos son más baratos y con una mayor velocidad con respecto al avance de la tecnología.
 
+
+
 ## 2. Estructura controlador:
 
+![Figura de prueba](Imagenes/estructura.png)
 
-
+se nos presenta una 
 
 
 
@@ -48,7 +51,7 @@ Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las
 
 💡**Ejemplo 2:**
 
-![Figura de prueba](images/plantilla/Captura2.PNG)
+![Figura de prueba](Imagenes/estructura.png)
 
 Figura 1. Figura de prueba
 
