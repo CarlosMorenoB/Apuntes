@@ -93,7 +93,7 @@ estas se usan comúnmente en la implementación de controladores digitales y en 
 - Una frecuencia de muestreo alta mejora la precisión de la señal digitalizada, mientras que una baja puede resultar en pérdida de información.
 - entre Zero-Order Hold, es mas facil de implementar y requiere menos procesamiento y memoria.
 
-## 7. Referencias:
+## 7. Referencias(Imagenes):
 
 -https://es.wikipedia.org/wiki/Teor%C3%ADa_del_control
 
