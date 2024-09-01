@@ -76,7 +76,21 @@ Un conversor o convertidor digital analógico (DAC) por suma ponderada suma vari
 
 Un conversor o convertidor digital analógico (DAC) R-2R suma varias señales digitales binarias de acuerdo al peso de cada una dando como resultado una señal de corriente o tensión analógica.
 
-![Figura de prueba](Imagenes/ponderadas.png)
+![Figura de prueba](Imagenes/r2r.png)
+
+
+## 4. Zero order Hold (ZOH):
+
+El Zero-Order Hold o "retenedor de orden cero", es un método utilizado en sistemas de control digital para convertir una señal digital en una señal analógica continua.
+
+este toma valores de una señal digital a intervalos regulares y los mantiene constantes hasta la siguiente muestra. la cual crea una señal escalonada que aproxima la señal analógica original.
+
+estas se usan comúnmente en la implementación de controladores digitales y en la reconstrucción de señales analógicas en sistemas de control en tiempo real, estos tambien los puedes encontrar de orden superior como first order hold y second order hold.
+
+
+
+
+
 
 
 
