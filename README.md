@@ -31,78 +31,46 @@ en el controlador digital este recibe como entrada una señal analogica, nos mue
 ### 2.3.Ejemplo:
 
 
-![Figura de prueba](Imagenes/señal2.png)
+![Figura de prueba](Imagenes/ejemplo1.png)
+
+Como ejemplo podemos escoger el siguiente controlador retroalimentado, mas concretamente un sistema de control de nivel de agua en un tanque, en este caso el tanque de agua tiene 2 niveles, uno nivel mínimo y otro nivel máximo (set-point), hay dos sensores dentro del tanque que detectan estos niveles, luego encontramos El comparador este es un dispositivo de control que recibe señales de los dos sensores de nivel, Compara estas señales con los niveles para determinar si se necesita más agua o si debe detenerse el llenado.
+
+El actuador es una bomba de agua que se enciende o apaga según las señales, Cuando el nivel del agua está por debajo del nivel mínimo, la bomba se activa y Cuando el agua alcanza el nivel máximo, la bomba se apaga.
+
+La variable que podemos controlar es el flujo de agua, el sistema controla esta variable con respecto a su retroalimentación.
+
+>🔑La realimentación, ​​ retroalimentación, ​​ o retroacción, ​ es un mecanismo por el cual una cierta proporción de la salida de un sistema se redirige a la entrada, con señales de controlar su comportamiento
+
+
+## 3. Conversión Análoga a Digital:
+
+Uno de los procesos que se usa para este tipo de convertidor es el muestreo el cual consiste en medir voltaje en cada cierto tiempo, Una frecuencia de muestreo rápida implica tener más puntos en un tiempo dado y por ende formar una mejor representación de la señal medida, Una tasa de muestreo baja hace que se pierda la información de la señal.
+luego de que la señal se a muestreado la señal análoga da una serie de valores los que corresponden a una de las medidas tomadas, la cuantización toma estos valores muestreados en valores discretos para que puedan ser representados de forma digital.
+
+
+## 4. Conversión Digital a Análoga:
+
+se excplica sobre un convertidor digital a analógico, este es un dispositivo que convierte señales digitales en señales analógicas. Es esencial en sistemas donde la información digital procesada por computadoras o controladores.
+
+para la resolucion del analogo dijital depende de los bits de representacion, los cuales se representan de la siguiente manera teniendo como referencia el fondo de escala de 15v:
+
+
+| Bits (entrada)  |  Resolucion (v)  | Resolucion(%FS)  |
+|---|---|---|
+| 4  |  1 | 6,6  |
+|  8 | 0.059  | 0.04  |
+|  16 | 229𝑥10−6  | 0,0015  |
+|  32 | 3,5𝑥10−9  |  0,00000000023 |
+
+
+### 4.1.Metodos de convercion:
+en metodos se encuentran 2 metodos los cuales son resistencias ponderadas y red R-2R.
+
+#### 4.1.1.Resistencias Ponderadas:
+
+Un conversor o convertidor digital analógico (DAC) por suma ponderada suma varias señales digitales binarias de acuerdo al peso de cada una dando como resultado una señal de corriente o tensión analógica.
+
+![Figura de prueba](Imagenes/ejemplo1.png)
 
 
 
-
-Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
->🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
-
-## 3. Subsecciones
-Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
-### 3.1. Título de subsecciones
-Para la creación de estas subsecciones debe utilizar un tamaño de letra más pequeño, por lo tanto utilice la etiqueta '###' 
-### 3.2. Numeración de subsecciones
-Siga la numeración de la sección seguida de un punto y luego el número de la subsección.
-
-## 4. Ejemplos
-Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
-
-## 5. Ecuaciones
-Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y final de la ecuación para que la ecuación quede centrada ocupando una línea. Si se quiere que la ecuación quede integrada en el texto debe utilizar la etiqueta '$' al comienzo y final de la ecuación. Las ecuaciones pueden ser editadas utilizando el código LATEX, en el siguiente enlace encuentran un editor de ecuaciones que les genera el código. http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp . Sin embargo hay muchas otras herramientas que pueden utilizar para esto.
-
-💡**Ejemplo 1:** si se va a representar la ecuación de la ley de Ohm se puede mostrar así $R=\frac{V}{I}$ o también,
-
-$$R=\frac{V}{I}$$
-
-## 6. Figuras
-Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las figuras de las presentaciones**. Para incluir figuras puede seguir los siguientes pasos:
-* Primero escribimos ![]().
-* Después escribimos, dentro de los corchetes, el texto alternativo. Este es opcional y solo entra en acción cuando no se puede cargar la imagen correctamente.
-* Después escribimos, dentro de los paréntesis, la ubicación del archivo (ya sea una url o una ubicación dentro de algun folder local). Se recomienda poner las imágenes en una carpeta que se llame imágenes dentro del repositorio github para que no tengan problemas al cargar las imágenes.
-
-💡**Ejemplo 2:**
-
-![Figura de prueba](Imagenes/estructura.png)
-
-Figura 1. Figura de prueba
-
-Incluya la respectiva etiqueta a modo de descripción de la figura y mantenga numeración consecutiva para todas las figuras de la clase.
-
-## 7. Tablas
-En caso de necesitar la inclusión de tablas para organizar información se recomienda el uso de la herramienta del siguiente enlace https://www.tablesgenerator.com/markdown_tables , la cual permite organizar la información dentro de la tabla y genera el código markdown automáticamente:
-
-💡**Ejemplo 3:** 
-
-| **Resultado** | **x = número de intentos hasta primer éxito** |
-|---------------|-----------------------------------------------|
-|       S       |                       1                       |
-|       FS      |                       2                       |
-|      FFS      |                       3                       |
-|      ...      |                      ...                      |
-|    FFFFFFS    |                       7                       |
-|      ...      |                      ...                      |
-
-Tabla 1. Tabla de ejemplo
-
-Cada tabla debe llevar la etiqueta que describa su contenido y numeración consecutiva para todas las tablas
-
-## 8. Código
-Teniendo en cuenta que el curso requiere del desarrollo de código matlab, c, c++ u otro. Si requiere incluir pequeños segmentos de código en los apuntes hágalos de la siguiente manera:
-
-💡**Ejemplo 4:**
-```
-var sumar2 = function(numero) {
-  return numero + 2;
-}
-```
-
-## 9. Ejercicios
-Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
-
-## 10. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
-
-## 11. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
