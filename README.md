@@ -70,7 +70,14 @@ en metodos se encuentran 2 metodos los cuales son resistencias ponderadas y red 
 
 Un conversor o convertidor digital analógico (DAC) por suma ponderada suma varias señales digitales binarias de acuerdo al peso de cada una dando como resultado una señal de corriente o tensión analógica.
 
-![Figura de prueba](Imagenes/ejemplo1.png)
+![Figura de prueba](Imagenes/ponderadas.png)
+
+#### 4.1.1.Conversor digital analogico R-2R:
+
+Un conversor o convertidor digital analógico (DAC) R-2R suma varias señales digitales binarias de acuerdo al peso de cada una dando como resultado una señal de corriente o tensión analógica.
+
+![Figura de prueba](Imagenes/ponderadas.png)
+
 
 
 
