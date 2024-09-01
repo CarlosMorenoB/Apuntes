@@ -79,7 +79,7 @@ Un conversor o convertidor digital analógico (DAC) R-2R suma varias señales di
 ![Figura de prueba](Imagenes/r2r.png)
 
 
-## 4. Zero order Hold (ZOH):
+## 5. Zero order Hold (ZOH):
 
 El Zero-Order Hold o "retenedor de orden cero", es un método utilizado en sistemas de control digital para convertir una señal digital en una señal analógica continua.
 
@@ -87,7 +87,25 @@ este toma valores de una señal digital a intervalos regulares y los mantiene co
 
 estas se usan comúnmente en la implementación de controladores digitales y en la reconstrucción de señales analógicas en sistemas de control en tiempo real, estos tambien los puedes encontrar de orden superior como first order hold y second order hold.
 
+## 6. Conclusiones
 
+- El muestreo es esencial en la conversión de señales análogas a digitales, ya que mide el voltaje en intervalos de tiempo específicos.
+- Una frecuencia de muestreo alta mejora la precisión de la señal digitalizada, mientras que una baja puede resultar en pérdida de información.
+- entre Zero-Order Hold, es mas facil de implementar y requiere menos procesamiento y memoria.
+
+## 7. Referencias:
+
+-https://es.wikipedia.org/wiki/Teor%C3%ADa_del_control
+
+-https://www.researchgate.net/figure/Senal-analogica-y-Senal-digital_fig1_362489895
+
+-https://www.monografias.com/trabajos101/introduccion-control-digital/introduccion-control-digital
+
+-https://www.ingmecafenix.com/automatizacion/control/sistema-de-control/
+
+-https://wilaebaelectronica.blogspot.com/2017/01/conversor-digital-analogico-por-suma-ponderada.html
+
+-https://wilaebaelectronica.blogspot.com/2017/01/conversor-digital-analogico-r-2r.html
 
 
 
