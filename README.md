@@ -1,9 +1,19 @@
-# Introducción Control Digital
+# Metodos algebraicos
 
-En la primera clase de control se explica lo que son las señales analógicas y digitales, haciendo una breve introducción a cursos anteriores como lo son mostrar estructuras de controladores analógicos y digitales dando un ejemplo.
+-Estos métodos utilizan herramientas algebraicas para ajustar y controlar el comportamiento del sistema en lazo cerrado, logrando la respuesta deseada en el sistema.
 
-se explica también sobre la conversión analógica a digital y digital a análoga, con sus modelos de conversión, y por último se explica lo que son las resistencias ponderadas y red escalera R-2R.
+-El principio clave de estos métodos es modificar la función de transferencia en lazo cerrado para que el sistema alcance una respuesta específica, alineada con el comportamiento deseado.
 
+-Existen dos enfoques principales para aplicar estos métodos: uno basado en la igualación de modelo y otro en la igualación de coeficientes. Ambos enfoques buscan optimizar el rendimiento del sistema en función de parámetros específicos.
+
+Cuando se tiene un sistema de ecuaciones (es decir 2 o más ecuaciones), se
+pueden utilizar estos métodos.
+
+Los 3 métodos algebraicos son:
+
+- Igualación
+- Sustitución
+- Sumas y Restas
 
 ## 1. Señales digitales vs analógicas
 
