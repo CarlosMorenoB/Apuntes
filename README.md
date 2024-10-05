@@ -15,12 +15,11 @@ Los 3 métodos algebraicos son:
 - Sustitución
 - Sumas y Restas
 
-## 1. Señales digitales vs analógicas
+## 1. Igualación de modelo por métodos algebráicos
 
-Se presentan 2 señales las cuales una de ellas es de tipo analógico y otra de tipo digital. de la señal analógica se habla de los diferentes tipos de valores que estas pueden llegar a tener y como va variando con respecto al tiempo, en contraste a esto se presenta una señal digital la cual solo obtiene 2 posibles valores los cuales son '1' y '0' y su forma de onda es cuadrada.
+La igualación de modelo por métodos algebraicos es una técnica que consiste en modificar la función de transferencia de un sistema en lazo cerrado para que coincida con la función de transferencia de un modelo de referencia deseado. Esto se logra ajustando los parámetros del controlador para que el sistema real tenga un comportamiento similar al modelo objetivo.
 
-
-se presenta una pregunta la cual expresa el por qué es mejor control digital, el control digital es mejor porque en términos de precisión es mejor ya que nos permite un control más exacto con respecto a las condiciones que se desean, también nos permiten minimizar errores al momento de implementarlos por temas de diseños y en los cuales en los sistemas analógicos pueden ser más difíciles de controlar, nos permite más flexibilidad al momento de modificar o actualizar, y en términos de costos son más baratos y con una mayor velocidad con respecto al avance de la tecnología.
+se presento el sigiente ejemplo por igualacion de modelos:
 
 ![Figura de prueba](Imagenes/señal.png)
 
