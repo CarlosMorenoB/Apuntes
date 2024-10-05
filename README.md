@@ -30,8 +30,10 @@ Luego se nos explica la igualación de coeficientes que consta de un método alg
 
 se explica uno de los ejemplos con respecto a la igualacion de coeficientes:
 
-![Figura de prueba](Imagenes/sec2.png)
+![Figura de prueba](Imagenes/tre3.png)
 
+En algunos casos no se puede solucionar por acción proporcional, entonces toca usar otro método como lo son las funciones causales, en estas toca tener un par de consideraciones, entre las cuales encontramos que las funciones de planta y de controlador deben ser propias otra es que La igualación se realiza en el polinomio característico por lo tanto no hay control sobre la ubicación de los ceros del sistema.
+Una vez realizado este procedimiento el polinomio debe tener el mismo numero de incógnitas como de términos. 
 
 
 
