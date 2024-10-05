@@ -21,15 +21,20 @@ La igualación de modelo por métodos algebraicos es una técnica que consiste e
 
 se presento el sigiente ejemplo por igualacion de modelos:
 
-![Figura de prueba](Imagenes/señal.png)
+![Figura de prueba](Imagenes/pri1.png)
+![Figura de prueba](Imagenes/sec2.png)
 
-## 2. Estructura controlador:
+## 2. Igualación de coeficientes:
 
-### 2.1.Estructura del controlador analógico:
+Luego se nos explica la igualación de coeficientes que consta de un método algebraico utilizado en el diseño de controladores. Su objetivo es ajustar los parámetros del sistema de control (por ejemplo, ganancias de un controlador) de manera que la función de transferencia en lazo abierto del sistema tenga la forma deseada, coincidiendo los coeficientes de las expresiones polinómicas en el numerador y el denominador.
 
-![Figura de prueba](Imagenes/estructura.png)
+se explica uno de los ejemplos con respecto a la igualacion de coeficientes:
 
-de primeras se nos presenta la imagen de un controlador analógico, este controlador toma la señal del sensor y la compara con una resta (set point), se resta con respecto a la salida de la planta para saber cuanto es menor el error, este representa un lazo de control retroalimentado 
+![Figura de prueba](Imagenes/sec2.png)
+
+
+
+
 
 ### 2.2.Estructura del controlador digital:
 
