@@ -35,16 +35,16 @@ se explica uno de los ejemplos con respecto a la igualacion de coeficientes:
 En algunos casos no se puede solucionar por acción proporcional, entonces toca usar otro método como lo son las funciones causales, en estas toca tener un par de consideraciones, entre las cuales encontramos que las funciones de planta y de controlador deben ser propias otra es que La igualación se realiza en el polinomio característico por lo tanto no hay control sobre la ubicación de los ceros del sistema.
 Una vez realizado este procedimiento el polinomio debe tener el mismo numero de incógnitas como de términos. 
 
-
+![Figura de prueba](Imagenes/cua4.png)
 
 
 
 
 ## 6. Conclusiones
 
-- El muestreo es esencial en la conversión de señales análogas a digitales, ya que mide el voltaje en intervalos de tiempo específicos.
-- Una frecuencia de muestreo alta mejora la precisión de la señal digitalizada, mientras que una baja puede resultar en pérdida de información.
-- entre Zero-Order Hold, es mas facil de implementar y requiere menos procesamiento y memoria.
+- El método de igualación de coeficientes nos permite diseñar controladores ajustando con precisión los coeficientes de las funciones de transferencia, esto nos permite garantizar que el sistema siga un comportamiento dinámico que se desea.
+- En igualación de coeficientes en lazo abierto se puede aplicar tanto en sistemas continuos como discretos, proporcionando una herramienta flexible para el diseño de controladores.
+  
 
 
 
