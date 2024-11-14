@@ -2,16 +2,11 @@
 
 -En la anterior clase se hizo la prueba del parcial, se da solucion al parcial de la sigiente manera:
 
+
 ## 1. Primer punto
-
- R = V I 
-
+(las sigientes ecuaciones se generan de forma manuel en la sigiente url https://latexeditor.lagrida.com/)
 
 
-
-La igualación de modelo por métodos algebraicos es una técnica que consiste en modificar la función de transferencia de un sistema en lazo cerrado para que coincida con la función de transferencia de un modelo de referencia deseado. Esto se logra ajustando los parámetros del controlador para que el sistema real tenga un comportamiento similar al modelo objetivo.
-
-se presento el sigiente ejemplo por igualacion de modelos:
 
 ![Figura de prueba](Imagenes/pri1.png)
 ![Figura de prueba](Imagenes/sec2.png)
