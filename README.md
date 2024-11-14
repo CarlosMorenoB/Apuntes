@@ -1,21 +1,13 @@
-# Metodos algebraicos
+# Solucion del Parcial
 
--Estos métodos utilizan herramientas algebraicas para ajustar y controlar el comportamiento del sistema en lazo cerrado, logrando la respuesta deseada en el sistema.
+-En la anterior clase se hizo la prueba del parcial, se da solucion al parcial de la sigiente manera:
 
--El principio clave de estos métodos es modificar la función de transferencia en lazo cerrado para que el sistema alcance una respuesta específica, alineada con el comportamiento deseado.
+## 1. Primer punto
 
--Existen dos enfoques principales para aplicar estos métodos: uno basado en la igualación de modelo y otro en la igualación de coeficientes. Ambos enfoques buscan optimizar el rendimiento del sistema en función de parámetros específicos.
+ R = V I 
 
-Cuando se tiene un sistema de ecuaciones (es decir 2 o más ecuaciones), se
-pueden utilizar estos métodos.
 
-Los 3 métodos algebraicos son:
 
-- Igualación
-- Sustitución
-- Sumas y Restas
-
-## 1. Igualación de modelo por métodos algebráicos
 
 La igualación de modelo por métodos algebraicos es una técnica que consiste en modificar la función de transferencia de un sistema en lazo cerrado para que coincida con la función de transferencia de un modelo de referencia deseado. Esto se logra ajustando los parámetros del controlador para que el sistema real tenga un comportamiento similar al modelo objetivo.
 
