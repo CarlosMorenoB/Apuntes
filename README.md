@@ -70,16 +70,16 @@ $$ MG > 0 $$
 
 ESTABLE
 
-![image alt](segundo.png)
+![image alt](https://github.com/CarlosMorenoB/Apuntes/blob/fe4ca7e15518e9b6a6bcc82c76e5ec0c98c01f69/Imagenes/Segundo.png)
 
 
 
-## 6. Conclusiones
+## 3. Tercer Punto:
 
-- El método de igualación de coeficientes nos permite diseñar controladores ajustando con precisión los coeficientes de las funciones de transferencia, esto nos permite garantizar que el sistema siga un comportamiento dinámico que se desea.
-- En igualación de coeficientes en lazo abierto se puede aplicar tanto en sistemas continuos como discretos, proporcionando una herramienta flexible para el diseño de controladores.
+El ultimo punto constaba de averiguar el punto:
   
 
+![image alt](https://github.com/CarlosMorenoB/Apuntes/blob/fe4ca7e15518e9b6a6bcc82c76e5ec0c98c01f69/Imagenes/Segundo.png)
 
 
 
