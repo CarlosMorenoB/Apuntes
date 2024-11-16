@@ -33,7 +33,7 @@ $$ G(z) = \frac{G(0)}{G(z)(1-Go(z)} $$
 
 $$ G(z) = \frac{ \frac{1}{z^5 + 304z^4 + 31.21\times10^3z^3 + 1.12\times10^6z^2 + 4\times10^6z + 11.45\times10^6}} { \frac{1.61\times10^-7z^2 + 6.25\times10^-7 + 1.53\times10^-7}{z^5 - 2.87z^2 + 2.75z - 0.88}(1-{ \frac{1}{z^5 + 304z^4 + 31.21\times10^3z^3 + 1.12\times10^6z^2 + 4\times10^6z + 11.45\times10^6}})} $$
 
-$$ G(z) = \frac{z^3 - 2.87z^2 + 27.5z -0.88}{z^5 + 304z^4 + 31.21\times10^3z^3 + 1.12\times10^6z^2 + 4\times10^6z + 11.45\times10^6} $$
+$$ G(z) = \frac{z^3 - 2.87z^2 + 27.5z -0.88}{(1.61\times10^-7 z^2 + 6.25\times10^-7z + 1.53\times10^-7)(z^5 +304z^4 + 31.21\times10^3z^5 + 1.12\times10^6z^2+ 4\times10^6z + 11.45\times10^6)} $$
 
 ## 2. Segundo punto:
 
