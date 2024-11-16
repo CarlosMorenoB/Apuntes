@@ -3,26 +3,31 @@
 -En la anterior clase se hizo la prueba del parcial, se da solucion al parcial de la sigiente manera:
 
 
-## 1. Primer punto
-(las sigientes ecuaciones se generan de forma manuel en la sigiente url https://latexeditor.lagrida.com/)
+## 1. Primer punto:
+las sigientes ecuaciones se generan de forma manual con respecto a la solucion del primer punto del grupo (a):
+
+$$ G(z) = \frac{1.62 \times 10^{-7} z^2 + 6.25 \times 10^{-7} z + 1.53 \times 10^{-7}}{z^3 - 2.87z^2 + 2.75z - 0.88} $$
+
+$$ p_1 = -100 $$
+$$ p_2 = -100  $$
+$$ p_3 = -100$$
+$$ p_4 = -2 + 2.73j $$
+$$ p_5 = -2 - 2.73j $$
+
+$$ (z + 100)(z + 100)(z + 100)(z + 2 + 2.73j)(z + 2 - 2.73j) $$
+
+$$ (z^2 200z + 10^4)(z + 100)(z^2 + 2z - 2.73jz + 2z + 4 - 5.16j + 2.73jz + 5.46j + 7.45) $$
+
+$$ (z^3 + 100z^2 + 200z^2 + 2x10^4z + 10^4z + 10^6)(z^2 + 4z + 11.45) $$
+
+$$ (z^3 + 300z^2 + 3x10^4z + 10^6)(z^2 + 4z + 11.45) $$ 
+
+$$ (z^5 + 4z^4 + 11.45z^3 + 300z^4 + 1.2x10^3z^3 + 3.43x10^3z^2 + 3x10^4z^3 + 12x10^4z^2 + 34.35z + 10^6z^2 + 4x10^6z + 11.45x10^6) $$
+
+$$ (z^5 + 304z^4 + 31.21x10^3z^3 + 1.12x10^6z^2 + 4x10^6z + 11.45x10^6) $$
 
 
-
-![Figura de prueba](Imagenes/pri1.png)
-![Figura de prueba](Imagenes/sec2.png)
-
-## 2. Igualación de coeficientes:
-
-Luego se nos explica la igualación de coeficientes que consta de un método algebraico utilizado en el diseño de controladores. Su objetivo es ajustar los parámetros del sistema de control (por ejemplo, ganancias de un controlador) de manera que la función de transferencia en lazo abierto del sistema tenga la forma deseada, coincidiendo los coeficientes de las expresiones polinómicas en el numerador y el denominador.
-
-se explica uno de los ejemplos con respecto a la igualacion de coeficientes:
-
-![Figura de prueba](Imagenes/tre3.png)
-
-En algunos casos no se puede solucionar por acción proporcional, entonces toca usar otro método como lo son las funciones causales, en estas toca tener un par de consideraciones, entre las cuales encontramos que las funciones de planta y de controlador deben ser propias otra es que La igualación se realiza en el polinomio característico por lo tanto no hay control sobre la ubicación de los ceros del sistema.
-Una vez realizado este procedimiento el polinomio debe tener el mismo numero de incógnitas como de términos. 
-
-![Figura de prueba](Imagenes/cua4.png)
+## 2. Segundo punto:
 
 
 
