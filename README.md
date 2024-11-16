@@ -79,7 +79,7 @@ ESTABLE
 El ultimo punto constaba de averiguar el punto:
   
 
-![image alt](https://github.com/CarlosMorenoB/Apuntes/blob/fe4ca7e15518e9b6a6bcc82c76e5ec0c98c01f69/Imagenes/Segundo.png)
+![image alt](https://github.com/CarlosMorenoB/Apuntes/blob/main/Imagenes/Tercero.png)
 
 
 
