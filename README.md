@@ -59,22 +59,17 @@ $$ 11.45\times10^6 = -0.88B0 + 1.53\times10^-7A0 $$
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2. Segundo punto:
+
+En el segundo punto había que escribir si el sistema era estable o no dependiendo de la grafica y lo previamente visto en las diapositivas mostradas.
+Con respecto a lo anterior visto se da que el sistema es estable.
+
+$$ MP > -180° $$
+
+$$ MG > 0 $$
+
+ESTABLE
+
 
 
 
