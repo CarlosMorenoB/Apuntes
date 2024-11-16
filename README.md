@@ -4,7 +4,7 @@
 
 
 ## 1. Primer punto:
-las sigientes ecuaciones se generan de forma manual con respecto a la solucion del primer punto del grupo (a):
+las sigientes ecuaciones se generan de forma manual con respecto a la solucion del primer punto del grupo:
 
 $$ G(z) = \frac{1.62 \times 10^{-7} z^2 + 6.25 \times 10^{-7} z + 1.53 \times 10^{-7}}{z^3 - 2.87z^2 + 2.75z - 0.88} $$
 
@@ -28,6 +28,9 @@ $$ (z^5 + 304z^4 + 31.21\times10^3z^3 + 1.12\times10^6z^2 + 4\times10^6z + 11.45
 
 
 $$ G(z) = \frac{1}{z^5 + 304z^4 + 31.21\times10^3z^3 + 1.12\times10^6z^2 + 4\times10^6z + 11.45\times10^6} $$
+
+
+
 
 
 
