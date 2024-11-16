@@ -4,7 +4,7 @@
 
 
 ## 1. Primer punto:
-las sigientes ecuaciones se generan de forma manual con respecto a la solucion del primer punto del grupo:
+las sigientes ecuaciones se generan de forma manual con respecto a la solucion del primer punto presentado en el parcial:
 
 $$ G(z) = \frac{1.62 \times 10^{-7} z^2 + 6.25 \times 10^{-7} z + 1.53 \times 10^{-7}}{z^3 - 2.87z^2 + 2.75z - 0.88} $$
 
@@ -43,9 +43,19 @@ $$  G(o) =\frac{ (\frac{A0 + A1z + A2z^2}{B0 + B1z + B2z^2})(\frac{1.61\times10^
 
 $$ (B0 + B1z + B2z^2)(z^3 - 2.87z^2 + 2.75z -0.88) + (A0 + A1z + A2z^2)(1.61\times10^-7z^2 + 6.25\times10^-7 + 1.53\times10^-7)  $$
 
-$$ z^3B0 - 2.87B0^z2 + 1.75B0z - 0.88B0 + 8.z^4 - 2.87B1z^3 + 2.75B1z^2 - 0.88B1z - B2z^5 - 2.87B2z^4 + 2.75B2z^3 - 0.88B2z^2 + 1.61x10^-7A0z^2 + 6.25x10^-7A0z + 1.53x10^-7A0 + 1.61x10^-7A1z^3 + 6.25x10^-7A1z^2 + 1.53x10^-7A1z + 1.61x10^-7A2z^4+$$
+$$ z^3B0 - 2.87B0^z2 + 1.75B0z - 0.88B0 + 8.z^4 - 2.87B1z^3 + 2.75B1z^2 - 0.88B1z - B2z^5 - 2.87B2z^4 + 2.75B2z^3 - 0.88B2z^2 + 1.61\times10^-7A0z^2 + 6.25\times10^-7A0z + 1.53\times10^-7A0 + 1.61\times10^-7A1z^3 + 6.25\times10^-7A1z^2 + 1.53\times10^-7A1z + 1.61\times10^-7A2z^4 + 6.25\times10^-7A2z^3 + 1.53\times10^-7A2z^2 $$
 
+$$ 1 = B2 $$
 
+$$ 304= B1 - 2.87B2 + 1.61\times10^-7A2 $$ 
+
+$$ 31.21\times10^3 = B0 - 2.87B1 + 2.75B2 + 1.61\times10^-7A1 + 6.25\times10^-7A2 $$
+
+$$ 1.12\times10^6 = -2.87B0 + 2.75B1 - 0.88B2 + 1.61\times10^-7A0 + 6.25\times10^-7A1 + 1.53\times10^-7 A2 $$
+
+$$ 4\times10^6 = 2.75B0 - 0.88B1 + 6.25\times10^-7A0 + 1.53\times10^-7A1 $$
+
+$$ 11.45\times10^6 = -0.88B0 + 1.53\times10^-7A0 $$
 
 
 
